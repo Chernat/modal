@@ -28,7 +28,7 @@ body {
   align-items: center;
   height: 100vh; }
 
-.modal-btn .btn {
+.switcher__btn {
   padding: 20px;
   background-color: #23db71;
   color: #fff;
@@ -40,7 +40,7 @@ body {
   -o-transition: box-shadow .2s linear;
   transition: box-shadow .2s linear;
   transition: box-shadow .2s linear, -webkit-box-shadow .2s linear; }
-  .modal-btn .btn:hover {
+  .switcher__btn:hover {
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 0px 3px #22d26c;
     box-shadow: 0px 0px 0px 3px #22d26c; }
@@ -104,13 +104,13 @@ body {
     -webkit-transform: translate(-50%, -35%) scale(0);
     transform: translate(-50%, -35%) scale(0); } }
 
-.close-btn {
+.modal__btn_close {
   position: absolute;
   top: -30px;
   right: -30px;
   font-size: 28px;
   color: #fff; }
-  .close-btn:hover {
+  .modal__btn_close:hover {
     -webkit-animation: rotate .8s linear infinite;
     animation: rotate .8s linear infinite; }
 
@@ -136,6 +136,6 @@ body {
     -webkit-transform: scale(1);
     transform: scale(1); } }
 
-.bottom-text {
+.modal__bottom-text {
   padding-top: 20px;
   text-align: center; }
