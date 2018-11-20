@@ -1,13 +1,14 @@
 {
   "name": "modal",
   "version": "1.0.0",
-  "description": "",
+  "description": "[GitHub Pages](https://chernat.github.io/modal/)",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
   },
@@ -15,5 +16,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chernat/modal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chernat/modal/issues"
+  },
+  "homepage": "https://github.com/Chernat/modal#readme"
 }

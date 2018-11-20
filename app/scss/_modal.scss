@@ -4,7 +4,6 @@ body {
   font-size: 18px;
   color: #fff;
   height: 100%;
-
   background-color: $color-main;
 }
 
@@ -16,7 +15,7 @@ body {
   height: 100vh;
 }
 
-.modal-btn .btn {
+ .switcher__btn {
   padding: 20px;
   background-color: $color-main;
   color: #fff;
@@ -76,7 +75,7 @@ body {
 
 }
 
-.close-btn {
+.modal__btn_close {
   position: absolute;
   top: -30px;
   right: -30px;
@@ -102,7 +101,7 @@ body {
   }
 }
 
-.bottom-text {
+.modal__bottom-text {
   padding-top: 20px;
   text-align: center;
 }
