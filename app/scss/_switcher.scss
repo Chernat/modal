@@ -1,17 +1,16 @@
 .switcher {
-
   &__btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 20px;
-  background-color: $color-main;
-  color: #fff;
-  white-space: nowrap;
-  border: 5px solid darken($color-main, 2%);
-  border-radius: 40px;
-  transition: box-shadow 0.2s linear;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: $color-main;
+    color: #fff;
+    white-space: nowrap;
+    border: 5px solid darken($color-main, 2%);
+    border-radius: 40px;
+    transition: box-shadow 0.2s linear;
 
     &:hover {
       cursor: pointer;
