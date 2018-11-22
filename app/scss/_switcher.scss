@@ -1,4 +1,6 @@
-.switcher__btn {
+.switcher {
+
+  &_btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11,8 +13,9 @@
   border-radius: 40px;
   transition: box-shadow 0.2s linear;
 
-  &:hover {
-    cursor: pointer;
-    box-shadow: 0 0 0 3px darken($color-main, 2%);
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 0 3px darken($color-main, 2%);
+    }
   }
 }
