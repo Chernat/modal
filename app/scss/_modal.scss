@@ -15,28 +15,28 @@
   transition: all 0.3s;
   animation: closed 1s ease 1;
 
-  &:target {
-    opacity: 1;
-    pointer-events: auto;
-    animation: opened 1s ease 1;
-  }
-
-  &__btn-close {
-    position: absolute;
-    top: -30px;
-    right: -30px;
-    font-size: 28px;
-    color: #fff;
-
-    &:hover {
-      animation: rotate 0.8s linear infinite;
+    &:target {
+      opacity: 1;
+      pointer-events: auto;
+      animation: opened 1s ease 1;
     }
-  }
 
-  &__bottom-text {
-    padding-top: 20px;
-    text-align: center;
-  }
+    &__btn-close {
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      font-size: 28px;
+      color: #fff;
+
+        &:hover {
+          animation: rotate 0.8s linear infinite;
+        }
+    }
+
+    &__bottom-text {
+      padding-top: 20px;
+      text-align: center;
+    }
 }
 
 @keyframes opened {
