@@ -20,7 +20,25 @@
     pointer-events: auto;
     animation: opened 1s ease 1;
   }
+
+  &__btn-close {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    font-size: 28px;
+    color: #fff;
+
+    &:hover {
+      animation: rotate 0.8s linear infinite;
+    }
+  }
+
+  &__bottom-text {
+    padding-top: 20px;
+    text-align: center;
+  }
 }
+
 @keyframes opened {
   0% {
     transform: translate(-50%, -30%) scale(0.3);
@@ -40,17 +58,6 @@
   }
 }
 
-.modal__btn-close {
-  position: absolute;
-  top: -30px;
-  right: -30px;
-  font-size: 28px;
-  color: #fff;
-
-  &:hover {
-    animation: rotate 0.8s linear infinite;
-  }
-}
 @keyframes rotate {
   0% {
     transform: scale(1);
@@ -63,9 +70,4 @@
   100% {
     transform: scale(1);
   }
-}
-
-.modal__bottom-text {
-  padding-top: 20px;
-  text-align: center;
 }
